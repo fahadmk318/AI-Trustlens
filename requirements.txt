@@ -1,0 +1,3 @@
+# AI TrustLens - Stage 1 Dependencies
+# Direct Python client for interacting with the local Ollama daemon
+ollama>=0.6.0
