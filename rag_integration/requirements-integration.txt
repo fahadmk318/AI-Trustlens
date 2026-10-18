@@ -1,0 +1,7 @@
+# AI TrustLens - integration runner extra dependencies
+# The baseline requirements.txt (ollama) stays untouched; these packages are
+# additional and are already available in the shared environment.
+#
+# httpx: HTTP client used by rag_integration/rag_client.py. It is already
+# installed (0.28.1) and is also the RAG subsystem's own HTTP test dependency.
+httpx>=0.28.1
