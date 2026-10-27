@@ -78,6 +78,7 @@ class TrustLensRAGPipeline:
         rag_client: Optional[RAGClient] = None,
         claim_processor: Optional[ClaimProcessor] = None,
         answer_provider: Optional[Callable[[str], Tuple[Optional[str], Optional[str]]]] = baseline_answer_provider,
+        verifier: Optional[Any] = None,
     ):
         self.config = config or IntegrationConfig()
         self.rag_client = rag_client or RAGClient(self.config)
@@ -86,6 +87,7 @@ class TrustLensRAGPipeline:
         self.answer_provider = (
             answer_provider if answer_provider is not None
             else baseline_answer_provider)
+        self.verifier = verifier
         self._owns_client = rag_client is None
 
     # -- lifecycle -----------------------------------------------------------
@@ -112,6 +114,7 @@ class TrustLensRAGPipeline:
         top_k: Optional[int] = None,
         retrieval_mode: Optional[str] = None,
         domain: Optional[str] = None,
+        verify: Optional[bool] = None,
     ) -> Dict[str, Any]:
         """Full pipeline given the answer text (answer source irrelevant).
 
@@ -159,6 +162,40 @@ class TrustLensRAGPipeline:
             },
             "errors": errors,
         }
+
+        should_verify = (
+            verify is True
+            or (verify is None and (self.verifier is not None or self.config.enable_verification))
+        )
+
+        if should_verify:
+            from verification import MedicalClaimVerifier, verify_claims_pipeline
+
+            # Attach structural validation to claims
+            try:
+                import claimextractor
+                val_res = claimextractor.validate_extracted_claims(answer, {"claims": claims})
+                struct_map = {
+                    c.get("claim", ""): {
+                        "status": c.get("validation", "PASSED"),
+                        "issues": c.get("issues", []),
+                        "is_structurally_valid": c.get("validation") == "PASSED",
+                        "note": val_res.get("note", ""),
+                    }
+                    for c in val_res.get("claims", [])
+                }
+                for res_item in results:
+                    c_text = res_item.get("claim", "")
+                    if c_text in struct_map:
+                        res_item["structural_validation"] = struct_map[c_text]
+                        if isinstance(res_item.get("claim_meta"), dict):
+                            res_item["claim_meta"]["structural_validation"] = struct_map[c_text]
+            except Exception as exc:
+                errors.append(f"structural validation error: {exc}")
+
+            verifier = self.verifier or MedicalClaimVerifier(mode=self.config.verification_mode)
+            output = verify_claims_pipeline(output, verifier=verifier)
+
         return output
 
     def process_question(
@@ -167,6 +204,7 @@ class TrustLensRAGPipeline:
         top_k: Optional[int] = None,
         retrieval_mode: Optional[str] = None,
         domain: Optional[str] = None,
+        verify: Optional[bool] = None,
     ) -> Dict[str, Any]:
         """Full pipeline starting from the question: generate the baseline
         answer through the untouched app.py adapter, then process it."""
@@ -189,7 +227,8 @@ class TrustLensRAGPipeline:
             return self._empty_output(question, None, errors, {"error": None, "duplicates": {}, "notes": []})
         return self.process_answer(
             question, answer,
-            top_k=top_k, retrieval_mode=retrieval_mode, domain=domain)
+            top_k=top_k, retrieval_mode=retrieval_mode, domain=domain,
+            verify=verify)
 
     # -- internals -----------------------------------------------------------
 

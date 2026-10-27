@@ -39,6 +39,19 @@ from .rag_client import (
     RAGInvalidResponseError,
     RAGTimeoutError,
 )
+from verification import (
+    STATUS_CONFLICTING,
+    STATUS_INSUFFICIENT,
+    STATUS_REFUTED,
+    STATUS_SUPPORTED,
+    VERIFICATION_STATUSES,
+    EvidenceAlignment,
+    EvidenceStance,
+    MedicalClaimVerifier,
+    VerificationResult,
+    verify_claim_against_evidence,
+    verify_claims_pipeline,
+)
 
 __all__ = [
     "IntegrationConfig",
@@ -61,4 +74,15 @@ __all__ = [
     "RAGHTTPError",
     "RAGInvalidResponseError",
     "RAGTimeoutError",
+    "STATUS_SUPPORTED",
+    "STATUS_REFUTED",
+    "STATUS_CONFLICTING",
+    "STATUS_INSUFFICIENT",
+    "VERIFICATION_STATUSES",
+    "EvidenceStance",
+    "EvidenceAlignment",
+    "VerificationResult",
+    "MedicalClaimVerifier",
+    "verify_claim_against_evidence",
+    "verify_claims_pipeline",
 ]

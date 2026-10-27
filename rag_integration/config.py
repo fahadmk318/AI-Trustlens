@@ -71,6 +71,14 @@ class IntegrationConfig:
     def batch_max_claims(self) -> int:
         return _getenv_int("RAG_API_BATCH_MAX_CLAIMS", 100)
 
+    @property
+    def enable_verification(self) -> bool:
+        return _getenv_str("TRUSTLENS_ENABLE_VERIFICATION", "0") in ("1", "true", "True", "yes")
+
+    @property
+    def verification_mode(self) -> str:
+        return _getenv_str("TRUSTLENS_VERIFICATION_MODE", "deterministic")
+
 
 def get_config() -> IntegrationConfig:
     """Return a fresh settings instance (re-evaluates environment changes)."""

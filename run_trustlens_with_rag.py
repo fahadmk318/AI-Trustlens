@@ -66,6 +66,8 @@ def _parse_args(argv: Optional[list] = None) -> argparse.Namespace:
     parser.add_argument("--domain", default=None, help="metadata filter for the corpus, e.g. 'Medical'\"")
     parser.add_argument("--rag-url", dest="rag_url", default=None, help="RAG API base URL (default: RAG_API_BASE_URL env or http://127.0.0.1:8000)")
     parser.add_argument("--refine", action="store_true", help="enable the extractor's optional LLM refinement stage (extra Ollama calls)")
+    parser.add_argument("--verify", action="store_true", default=False, help="run factual claim verification against retrieved evidence")
+    parser.add_argument("--verify-mode", dest="verify_mode", choices=["deterministic", "llm", "hybrid"], default=None, help="verification strategy (default: deterministic)")
     parser.add_argument("--out", default=None, help="also write the JSON result to this file")
     return parser.parse_args(argv)
 
@@ -101,6 +103,10 @@ def main(argv: Optional[list] = None) -> int:
     # config path.
     if args.rag_url:
         os.environ["RAG_API_BASE_URL"] = args.rag_url
+    if args.verify_mode:
+        os.environ["TRUSTLENS_VERIFICATION_MODE"] = args.verify_mode
+    if args.verify:
+        os.environ["TRUSTLENS_ENABLE_VERIFICATION"] = "1"
     config = get_config()
 
     pipeline = TrustLensRAGPipeline(
@@ -123,6 +129,7 @@ def main(argv: Optional[list] = None) -> int:
                 top_k=args.top_k,
                 retrieval_mode=args.retrieval_mode,
                 domain=args.domain,
+                verify=args.verify,
             )
         else:
             answer = _load_answer(args)
@@ -132,6 +139,7 @@ def main(argv: Optional[list] = None) -> int:
                 top_k=args.top_k,
                 retrieval_mode=args.retrieval_mode,
                 domain=args.domain,
+                verify=args.verify,
             )
     except RAGHTTPError as exc:
         print(json.dumps({
