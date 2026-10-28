@@ -1,0 +1,39 @@
+Source: World Health Organization (WHO) / American Cancer Society (ACS)
+Title: Lung Cancer — Causes, Diagnosis and Treatment
+URL: https://www.who.int/news-room/fact-sheets/detail/lung-cancer
+Domain: Medical
+Document-Type: Clinical Reference
+
+LUNG CANCER — FACTUAL REFERENCE
+
+Overview
+Lung cancer is the leading cause of cancer death worldwide, responsible for approximately 1.8 million deaths annually. It is the second most commonly diagnosed cancer. In 2020, approximately 2.21 million new lung cancer cases were diagnosed globally. The overall 5-year survival rate for lung cancer remains poor at approximately 18-20% in high-income countries, largely because most cases are diagnosed at advanced stages. Lung cancer incidence is strongly linked to tobacco smoking.
+
+Types of Lung Cancer
+Non-Small Cell Lung Cancer (NSCLC): Accounts for approximately 85% of all lung cancers. Three main subtypes: Adenocarcinoma: Most common NSCLC subtype (~40%); tends to occur in peripheral lung, more common in non-smokers and women; frequently harbors actionable mutations (EGFR, ALK, ROS1, KRAS). Squamous cell carcinoma (~25%): Typically centrally located, strongly associated with smoking; often presents with hemoptysis. Large cell carcinoma (~10%): Undifferentiated, grows rapidly, tends to spread early. Small Cell Lung Cancer (SCLC): Accounts for approximately 15% of lung cancers. Highly aggressive — rapid growth and early metastasis. Strongly associated with smoking. Initially very responsive to chemotherapy but almost always develops resistance. Almost universally diagnosed at advanced stage.
+
+Risk Factors
+Tobacco smoking: The most important risk factor — responsible for approximately 85% of all lung cancers. Risk increases with duration and quantity of smoking. Relative risk in smokers is 15-30 times higher than in non-smokers. The risk decreases after smoking cessation but never returns to non-smoker level. Secondhand smoke: Non-smokers exposed to secondhand smoke have a 20-30% increased risk of lung cancer. Radon gas: The second leading cause of lung cancer. Radon is a naturally occurring radioactive gas that can accumulate in homes. Responsible for approximately 10-15% of lung cancer cases in non-smokers. Asbestos exposure: Significantly increases lung cancer risk, especially in combination with smoking. Also causes mesothelioma. Occupational carcinogens: Arsenic, chromium, nickel, beryllium, coal tar, diesel exhaust. Air pollution: Outdoor air pollution is a Group 1 carcinogen (IARC) — accounts for approximately 1-2% of lung cancer cases. Genetic predisposition: Family history of lung cancer, inherited mutations in EGFR and other genes.
+
+Symptoms
+Lung cancer often causes no symptoms in early stages. Common symptoms when present: persistent cough (or change in chronic cough), coughing up blood (hemoptysis), chest pain (worsened by deep breathing, coughing, or laughing), shortness of breath, hoarseness, unexplained weight loss, fatigue, loss of appetite, recurrent respiratory infections (pneumonia or bronchitis). Symptoms of advanced disease: bone pain, headache, jaundice, swollen lymph nodes.
+
+Paraneoplastic Syndromes
+SCLC is associated with distinct paraneoplastic syndromes caused by tumor-secreted hormones or immune mechanisms: SIADH (inappropriate ADH secretion — hyponatremia), Cushing syndrome (ectopic ACTH production), Lambert-Eaton myasthenic syndrome (autoimmune neuromuscular junction disorder).
+
+Diagnosis and Staging
+Low-dose CT (LDCT) screening: Recommended annually for high-risk individuals (age 50-80, 20 pack-year smoking history, currently smoke or quit within past 15 years). LDCT reduces lung cancer mortality by 20-24%. Diagnosis confirmation: Bronchoscopy with biopsy, CT-guided needle biopsy, EBUS (endobronchial ultrasound), thoracoscopy/VATS. Molecular testing (biomarker testing): Mandatory for all advanced NSCLC — guides targeted therapy selection. Key mutations: EGFR (10-15% of Western patients, 30-50% of Asian patients), ALK rearrangement, ROS1, BRAF V600E, KRAS G12C, MET exon 14 skipping, RET, NTRK. PD-L1 expression testing: Guides immunotherapy decisions. Staging (TNM): Stage I (localized) through Stage IV (metastatic). Approximately 57% of lung cancers are diagnosed at stage IV.
+
+Treatment — NSCLC
+Early-stage (I-II): Surgery (lobectomy, segmentectomy) is the primary treatment. Adjuvant chemotherapy (platinum-based) recommended for stage II-IIIA. Adjuvant targeted therapy: Osimertinib (EGFR-mutant, stage IB-IIIA) reduces recurrence by 83%. Locally advanced (stage III): Concurrent chemoradiation (platinum doublet + radiation). Consolidation immunotherapy: Durvalumab (anti-PD-L1) after chemoradiation significantly improves survival. Advanced/Metastatic (Stage IV): Targeted therapy first-line for mutation-positive NSCLC: EGFR mutations: Osimertinib (3rd generation), erlotinib, gefitinib, afatinib. ALK rearrangements: Alectinib, brigatinib, lorlatinib. KRAS G12C: Sotorasib, adagrasib. BRAF V600E: Dabrafenib + trametinib. Immunotherapy first-line for PD-L1-high (>=50%) tumors without actionable mutations: Pembrolizumab monotherapy. Pembrolizumab + chemotherapy for PD-L1 < 50%. Chemotherapy: Platinum doublet (cisplatin or carboplatin + paclitaxel/docetaxel/pemetrexed) — for patients not eligible for targeted therapy or immunotherapy.
+
+Treatment — SCLC
+Limited-stage: Concurrent chemoradiation with cisplatin/etoposide. Prophylactic cranial irradiation (PCI) for responders. Extensive-stage: Platinum + etoposide + atezolizumab (immunotherapy). Median survival: approximately 8-13 months. SCLC almost always develops resistance to first-line treatment within 6-12 months (acquired resistance).
+
+Key Statistics
+- Lung cancer is the leading cause of cancer death in both men and women in most countries.
+- In 2020, 1.8 million deaths from lung cancer occurred worldwide.
+- The 5-year survival rate for all stages combined is approximately 18-20%.
+- For stage IA lung cancer, 5-year survival exceeds 80%.
+- For stage IV, 5-year survival is approximately 5-10% (improving with targeted therapy and immunotherapy).
+- Smoking cessation reduces lung cancer risk by 50% after 10 years of abstinence.

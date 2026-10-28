@@ -1,3 +1,15 @@
-# AI TrustLens - Stage 1 Dependencies
-# Direct Python client for interacting with the local Ollama daemon
+# AI TrustLens — Application Dependencies
+# -------------------------------------------------------------
+# Stage 1: Local LLM generation & Medical Claim Extractor
 ollama>=0.6.0
+
+# Stage 2 & Integration Bridge: RAG Microservice Client
+httpx>=0.28.1
+pydantic>=2.9.0
+
+# Stage 3: Modern Web Dashboard (FastAPI + ASGI Server)
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# Automated Testing & Verification Suite
+pytest>=8.0.0

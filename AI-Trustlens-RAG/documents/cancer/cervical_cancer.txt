@@ -1,0 +1,43 @@
+Source: World Health Organization (WHO) / American Cancer Society (ACS)
+Title: Cervical Cancer — HPV, Prevention, Screening and Treatment
+URL: https://www.who.int/news-room/fact-sheets/detail/cervical-cancer
+Domain: Medical
+Document-Type: Clinical Reference
+
+CERVICAL CANCER — FACTUAL REFERENCE
+
+Overview
+Cervical cancer is the fourth most common cancer in women globally, with approximately 604,000 new cases and 342,000 deaths in 2020. It occurs in the cells of the cervix — the lower part of the uterus that connects to the vagina. Virtually all cervical cancers are caused by persistent infection with high-risk human papillomavirus (HPV). Crucially, cervical cancer is one of the most preventable and curable cancers when detected early and treated appropriately. The WHO has launched a global strategy to eliminate cervical cancer as a public health problem (target: < 4 per 100,000 women per year).
+
+Causation — Human Papillomavirus (HPV)
+HPV is a very common sexually transmitted infection — most sexually active men and women will be infected at some point. The majority of HPV infections clear spontaneously, but persistent infection with high-risk HPV types causes cervical cancer. High-risk HPV types 16 and 18 are responsible for approximately 70% of all cervical cancers and are targeted by all licensed HPV vaccines. Other high-risk types include 31, 33, 45, 52, and 58. HPV infection progresses through precancerous cervical intraepithelial neoplasia (CIN) stages before developing into invasive cancer — typically over 10-15 years.
+
+Types of Cervical Cancer
+Squamous cell carcinoma: Most common type — accounts for 70-80% of cervical cancers. Arises from squamous cells covering the outer part of the cervix (ectocervix). Caused predominantly by HPV 16 and 18. Adenocarcinoma: Accounts for 20-25% of cervical cancers. Arises from glandular cells lining the cervical canal. Increasingly common, particularly in younger women. Adenosquamous carcinoma: Mixed type. Other rare types: clear cell, neuroendocrine.
+
+Risk Factors
+HPV infection (necessary cause): HPV 16 and 18 most oncogenic. Multiple sexual partners and early age of first intercourse increase HPV exposure risk. Immunosuppression: HIV infection increases risk of HPV persistence and cervical cancer by 4-5 times. People living with HIV should receive more frequent cervical screening. Smoking: Increases risk of cervical cancer in HPV-infected women. Long-term use of oral contraceptives (>5 years): Small increase in risk. Multiple pregnancies. Lack of access to cervical screening. Sexually transmitted co-infections (chlamydia, herpes simplex).
+
+Prevention — HPV Vaccination
+HPV vaccination is the primary prevention strategy for cervical cancer. Three licensed HPV vaccines are available: Cervarix (bivalent: HPV 16, 18), Gardasil (quadrivalent: HPV 6, 11, 16, 18), Gardasil-9 (nonavalent: HPV 6, 11, 16, 18, 31, 33, 45, 52, 58). WHO recommends HPV vaccination for girls aged 9-14 years (primary target) before sexual debut. Catch-up vaccination for young women up to age 26. Some guidelines recommend vaccination for women up to 45 and for men. Gardasil-9 prevents approximately 90% of HPV-related cervical cancers. Vaccination programs in countries like Australia, UK, and Nordic countries have dramatically reduced HPV infections, genital warts, and cervical cancer precursors. Important: Vaccination does NOT replace cervical screening — vaccinated women still require regular screening.
+
+Prevention — Cervical Screening
+Cervical screening (Pap smear/cytology): Detects precancerous changes (CIN) in cervical cells before they progress to cancer. Recommended every 3 years for women aged 21-65 (cytology alone). HPV testing: Primary HPV testing is now the preferred screening strategy in many countries. Detects high-risk HPV before cellular abnormalities develop. Recommended every 5 years for women aged 25-65. Co-testing (HPV + cytology): Recommended every 5 years (ages 30-65). Regular screening reduces cervical cancer incidence and mortality by approximately 70-80%. VIA (Visual Inspection with Acetic Acid): Low-cost screening method used in low-resource settings — trained health workers apply acetic acid and visually inspect the cervix.
+
+Symptoms
+Early cervical cancer may be asymptomatic. Symptoms when present: abnormal vaginal bleeding (between periods, after sexual intercourse, or after menopause), unusual vaginal discharge (watery, bloody, or foul-smelling), pelvic pain or pain during intercourse. Advanced disease: leg pain, back pain, swelling of one leg, difficulty urinating or defecating, fistulae (abnormal connections between vagina and bladder or rectum).
+
+Diagnosis and Staging
+Colposcopy and cervical biopsy: Confirm diagnosis of CIN or invasive cancer. Staging: Clinical staging using FIGO (International Federation of Gynecology and Obstetrics) classification. MRI (pelvis): Best for assessing local tumor extent, parametrial involvement, lymph nodes. CT or PET-CT: For detecting lymph node and distant metastases. Staging: Stage I (confined to cervix), Stage II (beyond cervix but not to pelvic wall), Stage III (to pelvic wall/lower vagina or causes hydronephrosis), Stage IV (bladder/rectum or distant metastases).
+
+Treatment
+Stage IA1 (microinvasive): LEEP (loop electrosurgical excision procedure), cold knife conization, or simple hysterectomy — fertility-sparing options available. Stage IB1-IIA (early locally confined): Radical hysterectomy + pelvic lymph node dissection (surgical), OR Definitive chemoradiation (equivalent oncologic outcomes). Stage IB3-IVA (locally advanced): Concurrent chemoradiation — cisplatin-based chemotherapy + external beam radiation + brachytherapy. This is the standard of care and achieves cure in a significant proportion. Stage IVB (distant metastasis): Systemic chemotherapy — cisplatin + paclitaxel ± bevacizumab. Immunotherapy: Pembrolizumab (anti-PD-1) approved in combination with chemotherapy ± bevacizumab for persistent, recurrent, or metastatic cervical cancer with PD-L1 expression. Tisotumab vedotin: Antibody-drug conjugate for recurrent/metastatic cervical cancer.
+
+Key Statistics
+- Cervical cancer is the 4th most common cancer in women globally (2020).
+- 604,000 new cases and 342,000 deaths in 2020.
+- Over 85% of cervical cancer deaths occur in low- and middle-income countries (LMICs).
+- In many high-income countries with screening programs, cervical cancer rates have fallen by over 80%.
+- 5-year survival: Stage I ~90%, Stage II ~60%, Stage III ~35%, Stage IV ~10%.
+- HPV vaccination is estimated to prevent up to 90% of cervical cancers.
+- WHO's 90-70-90 targets: 90% of girls vaccinated by age 15, 70% of women screened by age 35 and 45, 90% of women with cervical disease treated.

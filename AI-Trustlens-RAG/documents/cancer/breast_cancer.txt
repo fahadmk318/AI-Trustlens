@@ -1,0 +1,41 @@
+Source: World Health Organization (WHO) / American Cancer Society (ACS)
+Title: Breast Cancer — Facts, Screening, Diagnosis and Treatment
+URL: https://www.who.int/news-room/fact-sheets/detail/breast-cancer
+Domain: Medical
+Document-Type: Clinical Reference
+
+BREAST CANCER — FACTUAL REFERENCE
+
+Overview
+Breast cancer is the most commonly occurring cancer in women worldwide and the most common cancer overall, with over 2.3 million new cases diagnosed globally in 2020. It occurs in the breast tissue, most commonly arising from the cells lining the milk ducts (ductal carcinoma) or milk-producing lobules (lobular carcinoma). While predominantly a female disease, approximately 1% of breast cancer cases occur in men. The 5-year survival rate for localized breast cancer is approximately 99% in high-income countries, emphasizing the critical importance of early detection.
+
+Types of Breast Cancer
+Invasive ductal carcinoma (IDC): The most common type, accounting for approximately 80% of all invasive breast cancers. Arises in the milk ducts and invades surrounding breast tissue. Invasive lobular carcinoma (ILC): Begins in the milk-producing lobules. Accounts for approximately 10-15% of breast cancers. Ductal carcinoma in situ (DCIS): Non-invasive — cancer cells are confined to the milk ducts without invading surrounding tissue. Considered a precursor to invasive cancer. Triple-negative breast cancer (TNBC): Lacks estrogen receptors (ER), progesterone receptors (PR), and HER2 expression. More aggressive, more common in younger women and women of African descent. Not responsive to hormone therapy. HER2-positive breast cancer: Overexpresses the HER2 protein — historically more aggressive but highly responsive to targeted anti-HER2 therapies. Inflammatory breast cancer: Rare but aggressive — presents with redness and swelling of the breast, often without a distinct lump.
+
+Risk Factors
+Non-modifiable: Female sex, older age, family history of breast cancer (especially BRCA1/BRCA2 gene mutations), personal history of breast cancer or certain benign breast conditions, dense breast tissue, radiation exposure to chest before age 30. Modifiable: Postmenopausal obesity, alcohol consumption, physical inactivity, hormone replacement therapy (HRT) especially combined estrogen-progestogen, oral contraceptive use (small increase in risk), nulliparity or late first pregnancy (after age 30), not breastfeeding.
+
+BRCA Gene Mutations
+BRCA1 and BRCA2 are tumor suppressor genes. Mutations in BRCA1 confer a lifetime breast cancer risk of approximately 55-65%. Mutations in BRCA2 confer a lifetime breast cancer risk of approximately 45-55%. BRCA mutations also significantly increase risk for ovarian, fallopian tube, and peritoneal cancers. Testing is recommended for women with strong family history. Risk-reducing options include prophylactic mastectomy and salpingo-oophorectomy, and chemoprevention with tamoxifen or raloxifene.
+
+Signs and Symptoms
+A new lump or mass in the breast or underarm (most common symptom). Swelling of all or part of the breast. Skin dimpling or puckering. Breast or nipple pain. Nipple retraction (turning inward). Nipple discharge other than breast milk (especially if bloody). Changes in skin texture, redness, or scaliness. Any of these symptoms should prompt prompt medical evaluation. Many breast cancers are asymptomatic and detected only by screening.
+
+Screening and Early Detection
+Mammography is the gold standard for breast cancer screening. Annual or biennial mammography is recommended for average-risk women starting at age 40-50 (guidelines vary by organization). Clinical breast examination (CBE) by a healthcare provider. Breast self-examination (BSE) is no longer universally recommended but increases awareness. For high-risk women (BRCA mutation carriers, strong family history): annual MRI in addition to mammography, starting at age 25-30. Screening significantly reduces breast cancer mortality by 15-40%.
+
+Diagnosis
+Diagnosis requires tissue sampling (biopsy). Biopsy types: fine needle aspiration cytology (FNAC), core needle biopsy (CNB), or surgical excisional biopsy. Pathological assessment determines: Histological type and grade, receptor status (ER, PR, HER2), Ki-67 (proliferation index). Imaging: mammography, ultrasound, MRI for staging. Genomic profiling (Oncotype DX, MammaPrint) guides chemotherapy decisions in early-stage ER-positive disease.
+
+Staging
+Follows TNM staging: Stage 0 (DCIS) through Stage IV (distant metastasis). 5-year survival rates: Stage I ~99%, Stage II ~86%, Stage III ~57%, Stage IV ~29%.
+
+Treatment
+Surgery: Breast-conserving surgery (lumpectomy/wide local excision) plus radiation is equivalent to mastectomy for overall survival in eligible patients. Total mastectomy (simple or modified radical) for larger tumors, multicentric disease, or patient preference. Sentinel lymph node biopsy to assess axillary node involvement. Radiation therapy: Recommended after breast-conserving surgery and for high-risk mastectomy patients. Reduces local recurrence rate by 50-70%. Hormone (endocrine) therapy: For ER/PR-positive cancers — approximately 75% of all breast cancers. Tamoxifen (premenopausal women): 5-10 years of treatment reduces recurrence by ~50%. Aromatase inhibitors (AI) — anastrozole, letrozole, exemestane (postmenopausal women): More effective than tamoxifen in postmenopausal women. Ovarian suppression (GnRH agonists) in premenopausal high-risk women. Chemotherapy: Indicated for HER2-positive, triple-negative, node-positive, or high-risk ER-positive disease. Common regimens: AC-T (doxorubicin, cyclophosphamide, paclitaxel), TC (docetaxel, cyclophosphamide). Neoadjuvant (pre-surgery) chemotherapy to downstage tumors. Targeted therapy: Trastuzumab (Herceptin) for HER2-positive disease — reduces recurrence by ~50%. Pertuzumab, T-DM1, lapatinib — additional HER2-targeted options. CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) — for HR-positive, HER2-negative metastatic disease. PARP inhibitors (olaparib, talazoparib) — for BRCA-mutated HER2-negative metastatic disease. Immunotherapy: Pembrolizumab (PD-1 inhibitor) approved for triple-negative breast cancer in combination with chemotherapy.
+
+Key Statistics
+- Breast cancer is the most common cancer in women in 157 out of 185 countries.
+- In 2020, 685,000 women died from breast cancer globally.
+- Low-income countries have lower incidence but higher mortality due to late-stage diagnosis.
+- 5-year survival rate in high-income countries: approximately 80-90%.
+- In low-income countries, 5-year survival may be as low as 40%.

@@ -1,0 +1,45 @@
+Source: World Health Organization (WHO) / American Cancer Society (ACS)
+Title: Colorectal Cancer — Prevention, Screening and Treatment
+URL: https://www.who.int/news-room/fact-sheets/detail/colorectal-cancer
+Domain: Medical
+Document-Type: Clinical Reference
+
+COLORECTAL CANCER — FACTUAL REFERENCE
+
+Overview
+Colorectal cancer (CRC) is cancer of the colon and/or rectum. It is the third most commonly diagnosed cancer and the second most common cause of cancer death worldwide, with approximately 1.93 million new cases and 916,000 deaths in 2020. Most colorectal cancers begin as benign polyps — abnormal growths on the inner lining of the colon or rectum — that can slowly develop into cancer over 10-15 years. This slow progression makes colorectal cancer highly preventable and curable when detected early.
+
+Types of Colorectal Cancer
+Adenocarcinomas: Account for approximately 96% of colorectal cancers. Arise from glandular cells lining the colon. Carcinoid tumors: Arise from neuroendocrine cells — generally slow-growing. Gastrointestinal stromal tumors (GISTs): Rare mesenchymal tumors. Lymphomas: Rarely arise in the colon. Squamous cell carcinoma: Can occur in the anal canal. Microsatellite instability-high (MSI-H)/dMMR cancers: Approximately 15% of CRCs have deficient mismatch repair (dMMR). These have distinct biology — respond well to immunotherapy (pembrolizumab). KRAS, NRAS, BRAF mutations: Important predictors of treatment response.
+
+Risk Factors
+Non-modifiable: Age (risk increases significantly after 45-50), personal or family history of colorectal cancer or polyps, inflammatory bowel disease (ulcerative colitis, Crohn's disease), inherited syndromes — Lynch syndrome (hereditary non-polyposis colorectal cancer/HNPCC) accounts for 3-5% of CRC, Familial adenomatous polyposis (FAP), Modifiable: Red meat consumption (especially processed meat — WHO classifies processed meat as Group 1 carcinogen for CRC risk), Obesity and physical inactivity, Heavy alcohol consumption, Smoking tobacco, Type 2 diabetes, Low-fiber, high-fat diet.
+
+Protective Factors
+Regular physical activity reduces CRC risk by 24%. High dietary fiber intake (whole grains, legumes, fruits, vegetables). Aspirin and NSAIDs (regular use associated with 30-40% reduction in CRC risk — but not routinely recommended due to bleeding risk). Calcium and vitamin D supplementation (modest protective effect). Regular screening — detects and removes precancerous polyps before they become cancer.
+
+Polyp Types and Cancer Risk
+Tubular adenomas: Most common (~85%), low malignant potential if small (<1 cm). Villous adenomas: High malignant potential. Tubulovillous adenomas: Intermediate risk. Sessile serrated lesions (SSLs): Important precursor to MSI-H cancers. Hyperplastic polyps: Generally benign, no significant malignant potential. Polyps > 1 cm in diameter, high-grade dysplasia, or villous features are high-risk and require closer surveillance.
+
+Symptoms
+Early colorectal cancer is often asymptomatic. Symptoms when present: change in bowel habits (diarrhea, constipation, or alternating), rectal bleeding or blood in stool, dark/tarry stool, abdominal pain, cramping, or bloating, feeling that bowel does not empty completely, unexplained weight loss, fatigue, anemia (especially iron-deficiency anemia without obvious cause in older adults). Any of these symptoms should prompt medical evaluation.
+
+Screening
+Colorectal cancer screening is one of the most effective cancer prevention and early detection strategies. Recommended starting at age 45 (average risk) by the ACS; age 50 by most other guidelines. Colonoscopy: Gold standard — detects and removes polyps in one procedure. Recommended every 10 years. Fecal immunochemical test (FIT): Non-invasive, detects blood in stool. Recommended annually. Fecal occult blood test (FOBT): Similar to FIT, annually. Stool DNA test (Cologuard): Detects abnormal DNA + blood. Every 1-3 years. CT colonography (virtual colonoscopy): Every 5 years. High-risk patients (Lynch syndrome, FAP, IBD, prior polyps, family history): Earlier and more frequent screening. Colonoscopy screening reduces CRC mortality by approximately 60-80%.
+
+Diagnosis
+Colonoscopy with biopsy — definitive diagnosis. CT scan of chest, abdomen, pelvis for staging. Pelvic MRI for rectal cancer. PET-CT for metastatic disease. Carcinoembryonic antigen (CEA) tumor marker — used for monitoring, not diagnosis. Molecular testing: KRAS/NRAS/BRAF mutation status, MSI/MMR status, HER2 amplification — guide treatment.
+
+Staging and Treatment
+Stage I (T1-T2, N0, M0): Cancer invades submucosa or muscularis propria but not through bowel wall. Treatment: Surgery alone (colectomy). 5-year survival: approximately 90-95%. Stage II (T3-T4, N0, M0): Invades through bowel wall into nearby tissue. Treatment: Surgery; adjuvant chemotherapy for high-risk features (T4, perforation, fewer than 12 lymph nodes examined). 5-year survival: 75-80%. Stage III (any T, N1-N2, M0): Regional lymph node involvement. Treatment: Surgery + adjuvant FOLFOX or CAPOX chemotherapy (6 months). 5-year survival: 40-80% depending on N stage. Stage IV (any T, any N, M1): Distant metastasis (most commonly liver, lungs, peritoneum). Treatment: Systemic chemotherapy ± targeted therapy. FOLFOX or FOLFIRI ± bevacizumab (anti-VEGF) or cetuximab/panitumumab (anti-EGFR, for RAS/BRAF wild-type). Pembrolizumab for MSI-H/dMMR metastatic CRC (first-line). BRAF V600E + MEK inhibition for BRAF-mutant CRC. Metastasectomy (liver/lung surgery) for selected patients with limited metastases — potentially curative. 5-year survival stage IV: approximately 14%.
+
+Rectal Cancer — Special Considerations
+Neoadjuvant chemoradiation (CRT) is standard for locally advanced (T3-T4 or node-positive) rectal cancer. Total mesorectal excision (TME) is the surgical standard. Short-course radiation (5×5 Gy) followed by surgery for selected cases. Organ preservation with "watch and wait" strategy after complete clinical response to CRT.
+
+Key Statistics
+- CRC is the 3rd most diagnosed cancer and 2nd leading cause of cancer death worldwide.
+- 1 in 24 Americans will develop CRC in their lifetime (ACS).
+- Incidence is increasing in adults under 50 (early-onset CRC).
+- 5-year survival for all stages combined: approximately 64%.
+- Regular screening reduces CRC mortality by up to 60-80%.
+- Approximately 20-25% of patients present with synchronous metastases at diagnosis.

@@ -1,0 +1,7 @@
+# AI TrustLens - Integration Bridge & Web Dashboard Dependencies
+# -------------------------------------------------------------
+httpx>=0.28.1
+pydantic>=2.9.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pytest>=8.0.0

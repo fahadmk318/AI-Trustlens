@@ -1,0 +1,47 @@
+Source: World Health Organization (WHO) / National Cancer Institute (NCI)
+Title: Cancer — Overview, Risk Factors, Prevention and Treatment
+URL: https://www.who.int/news-room/fact-sheets/detail/cancer
+Domain: Medical
+Document-Type: Clinical Reference
+
+CANCER — OVERVIEW AND GENERAL FACTS
+
+Definition
+Cancer is a large group of diseases that can start in almost any organ or tissue of the body when abnormal cells grow uncontrollably, go beyond their usual boundaries to invade adjoining parts of the body, and/or spread to other organs. Cancer is the second leading cause of death globally. In 2020, an estimated 19.3 million new cancer cases and almost 10 million cancer deaths occurred worldwide.
+
+How Cancer Develops
+Cancer develops through a multi-step process in which normal cells accumulate genetic mutations over time. Proto-oncogenes (promote normal cell growth) can mutate to become oncogenes that drive excessive cell proliferation. Tumor suppressor genes (which normally restrain cell division and promote apoptosis) lose their function through mutation or deletion. DNA repair genes lose function, allowing further mutations to accumulate. Key hallmarks of cancer include: sustaining proliferative signaling, evading growth suppressors, resisting cell death (apoptosis), enabling replicative immortality, inducing angiogenesis (new blood vessel formation), activating invasion and metastasis.
+
+Most Common Cancer Types Globally (2020, WHO)
+1. Breast cancer — 2.26 million new cases
+2. Lung cancer — 2.21 million new cases
+3. Colorectal cancer — 1.93 million new cases
+4. Prostate cancer — 1.41 million new cases
+5. Skin cancer (non-melanoma) — 1.20 million new cases
+6. Stomach cancer — 1.09 million new cases
+Cancers causing the most deaths: Lung (1.8 million deaths), colorectal (916,000), liver (830,000), stomach (769,000), breast (685,000).
+
+Risk Factors
+Behavioural and lifestyle risk factors (modifiable): Tobacco use is the single most important risk factor — responsible for approximately 22% of global cancer deaths. Alcohol consumption increases risk for oral cavity, pharynx, larynx, esophagus, liver, colorectum, and breast cancers. Obesity and overweight increase risk for 13 types of cancer. Physical inactivity is associated with higher risk for colon, breast, and endometrial cancers. Unhealthy diet — low in fruits and vegetables, high in red and processed meat — increases colorectal cancer risk. Ultraviolet (UV) radiation causes skin cancer. Environmental and occupational factors: Carcinogens including asbestos, benzene, formaldehyde, aflatoxins, radon, and air pollution. Ionizing radiation (X-rays, gamma rays) can damage DNA. Biological risk factors: Oncogenic infections — HPV causes cervical, anal, oropharyngeal, and other cancers. Hepatitis B and C viruses cause liver cancer. Helicobacter pylori causes stomach cancer. HIV increases risk of Kaposi sarcoma, non-Hodgkin lymphoma, cervical cancer. Inherited genetic mutations (BRCA1/BRCA2 for breast/ovarian cancer, APC for colorectal cancer, PTEN for multiple cancers).
+
+Cancer Staging
+Staging describes the extent of cancer spread and guides treatment decisions. The TNM system is most widely used: T (tumor): size and extent of the primary tumor (T0-T4). N (nodes): involvement of regional lymph nodes (N0-N3). M (metastasis): presence of distant metastasis (M0 or M1). Stage I: localized, small tumor. Stage II: locally advanced. Stage III: regional spread to lymph nodes. Stage IV: distant metastasis — generally considered incurable but can be managed.
+
+Screening and Early Detection
+Early detection dramatically improves cancer outcomes. Effective screening programs include: mammography for breast cancer, Pap smear and HPV testing for cervical cancer, colonoscopy and fecal occult blood testing for colorectal cancer, low-dose CT (LDCT) for lung cancer in high-risk smokers, PSA testing for prostate cancer (controversial — shared decision-making recommended). Cancer is most treatable at early stages. Survival rates for stage I cancers are typically 80-95%, compared to less than 20% for stage IV.
+
+Treatment Modalities
+Surgery: Removal of primary tumor — most common treatment for solid tumors. Curative if cancer is localized. Radiation therapy (radiotherapy): Uses high-energy rays to kill cancer cells. Can be external beam radiation (EBRT) or brachytherapy (internal radiation). Chemotherapy: Uses cytotoxic drugs to kill rapidly dividing cells. Given orally or intravenously in cycles. Side effects include nausea, hair loss, immunosuppression, and fatigue. Immunotherapy: Activates the patient's immune system to recognize and attack cancer cells. Checkpoint inhibitors (PD-1/PD-L1, CTLA-4 inhibitors) have revolutionized treatment of many cancers. Targeted therapy: Drugs that target specific molecular drivers of cancer (e.g., HER2 inhibitors for breast cancer, EGFR inhibitors for lung cancer). Hormone therapy: Blocks hormones that fuel certain cancers — used in breast cancer (tamoxifen, aromatase inhibitors) and prostate cancer (androgen deprivation therapy). Stem cell/bone marrow transplant: Used for blood cancers (leukemia, lymphoma, myeloma) after high-dose chemotherapy or radiation.
+
+Cancer Prevention
+Approximately 30-50% of cancer deaths can be prevented by: Not smoking or using tobacco in any form. Maintaining a healthy body weight. Regular physical activity. Healthy diet with limited red/processed meat, adequate fruits and vegetables. Limiting alcohol consumption. Protecting skin from UV exposure. Vaccination against HPV and hepatitis B. Regular cancer screening as recommended by age and risk.
+
+Palliative Care
+Palliative care improves quality of life for patients and families facing life-threatening illness. It provides pain relief, management of cancer symptoms, and psychosocial support. Palliative care should be integrated from diagnosis, alongside curative treatment, not only at end of life.
+
+Global Cancer Burden
+- 19.3 million new cancer cases occurred globally in 2020.
+- Approximately 10 million people died from cancer in 2020.
+- By 2040, global cancer burden is projected to reach 28.4 million cases.
+- Low- and middle-income countries (LMICs) account for approximately 70% of cancer deaths.
+- 5-year relative survival for all cancers combined has improved from about 50% in the 1970s to nearly 70% in recent decades (in high-income countries).

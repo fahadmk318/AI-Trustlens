@@ -1,0 +1,43 @@
+Source: U.S. Centers for Disease Control and Prevention (CDC)
+Title: Antibiotic Use and Resistance
+URL: https://www.cdc.gov/antibiotic-use/
+Domain: Medical
+Document-Type: Clinical Guideline
+
+ANTIBIOTIC USE — FACTUAL REFERENCE
+
+Overview
+Antibiotics are medicines that kill or slow the growth of bacteria. They are one of the most important tools in modern medicine for treating bacterial infections. However, antibiotics do not work against viral infections such as the common cold, flu (influenza), most sore throats, bronchitis, or COVID-19.
+
+Indications for Antibiotic Use
+Antibiotics are effective and appropriate for treating bacterial infections including: pneumonia caused by bacteria, urinary tract infections (UTIs), strep throat (caused by Streptococcus pyogenes), whooping cough (pertussis), Lyme disease, tuberculosis (TB), and sexually transmitted infections such as gonorrhea and syphilis. Antibiotics are NOT appropriate for viral infections, fungal infections, or parasitic infections (which require different treatments).
+
+Antibiotic Resistance
+Antibiotic resistance occurs when bacteria evolve and develop the ability to defeat the drugs designed to kill them. It is one of the most urgent global health threats. Each year in the United States alone, more than 2.8 million antibiotic-resistant infections occur, resulting in more than 35,000 deaths. Globally, the WHO estimates that antibiotic resistance could cause 10 million deaths per year by 2050 if no action is taken.
+
+Causes of Antibiotic Resistance
+The primary driver of antibiotic resistance is the overuse and misuse of antibiotics — in humans, animals, and agriculture. Taking antibiotics when they are not needed, not completing the full course of prescribed antibiotics, and using antibiotics meant for someone else all contribute to resistance. In healthcare settings, inadequate infection control practices spread resistant bacteria between patients.
+
+Types of Antibiotics and Their Uses
+Penicillins (e.g., amoxicillin): used for ear infections, strep throat, urinary tract infections. Cephalosporins (e.g., cephalexin): used for skin infections and pneumonia. Macrolides (e.g., azithromycin): used for respiratory infections and atypical pneumonia. Fluoroquinolones (e.g., ciprofloxacin): used for urinary tract infections and some respiratory infections — use should be restricted due to resistance and side effects. Tetracyclines (e.g., doxycycline): used for Lyme disease, acne, and respiratory infections. Aminoglycosides (e.g., gentamicin): used for serious hospital-acquired infections. Carbapenems (e.g., meropenem): used for severe, multidrug-resistant infections as a last resort.
+
+Proper Antibiotic Use Guidelines
+Antibiotics should only be taken when prescribed by a licensed healthcare provider. Patients must take the full prescribed course even if they feel better before finishing. Leftover antibiotics should never be saved for later use or shared with others. Patients should not pressure healthcare providers into prescribing antibiotics for viral illnesses. Broad-spectrum antibiotics should be avoided when a narrow-spectrum antibiotic is effective.
+
+Superbugs and Multidrug-Resistant Organisms
+MRSA (Methicillin-resistant Staphylococcus aureus) is a leading antibiotic-resistant pathogen. CRE (Carbapenem-resistant Enterobacteriaceae) are bacteria that have become resistant to nearly all antibiotics and are responsible for thousands of deaths annually. C. difficile (Clostridioides difficile) causes life-threatening diarrhea and is associated with antibiotic use that disrupts normal gut flora. Drug-resistant TB (MDR-TB and XDR-TB) requires 18-24 months of treatment with second-line drugs.
+
+Antibiotic Stewardship
+Antibiotic stewardship programs in hospitals aim to ensure that antibiotics are prescribed only when necessary, at the correct dose and duration. These programs have been shown to reduce antibiotic resistance rates, decrease hospital-acquired infections, lower healthcare costs, and reduce adverse drug events including allergic reactions, C. difficile infections, and organ toxicity.
+
+Side Effects of Antibiotics
+Common side effects include nausea, vomiting, diarrhea, and stomach pain. Allergic reactions ranging from mild rash to anaphylaxis can occur — penicillin allergy is reported in approximately 10% of the population. Antibiotics can disrupt the normal gut microbiome, leading to secondary infections. Fluoroquinolones carry specific risks including tendon damage and peripheral neuropathy. Prolonged antibiotic use can increase risk of C. difficile infection.
+
+Antibiotic Use in Agriculture
+Approximately 70% of medically important antibiotics sold in the U.S. are used in food-producing animals — primarily to promote growth and prevent disease in crowded conditions. This use contributes significantly to antibiotic resistance and is a major public health concern. Many countries have banned or restricted the use of antibiotics for growth promotion in livestock.
+
+Key Statistics
+- Over 30% of antibiotic prescriptions in outpatient settings are unnecessary (CDC).
+- Antibiotic-resistant bacteria are responsible for 700,000 deaths globally per year.
+- The most common inappropriately treated conditions are upper respiratory infections and sinusitis.
+- Completing a full antibiotic course is essential to prevent regrowth of partially killed bacteria.

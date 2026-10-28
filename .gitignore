@@ -18,3 +18,26 @@ env/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Binaries & logs
+cloudflared
+*.log
+results.json
+results_*.json
+
+# Local environment configuration
+.env
+
+# RAG local storage and runtime caches
+AI-Trustlens-RAG/.git_backup/
+AI-Trustlens-RAG/qdrant_storage/
+AI-Trustlens-RAG/bm25_index.pkl
+AI-Trustlens-RAG/graph_store.json
+AI-Trustlens-RAG/documents_registry.json
+*.pkl
+

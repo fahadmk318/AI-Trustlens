@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI TrustLens — Medical Claim Verification Dashboard</title>
+  <meta name="description" content="Autonomous clinical hallucination mitigation, claim extraction, and hybrid RAG evidence verification platform.">
+  <link rel="stylesheet" href="/static/css/style.css?v=2.0.1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <!-- Top Sticky Navigation -->
+  <header class="top-nav">
+    <div class="nav-container">
+      <a href="/" class="brand" id="brandLogo">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            <circle cx="12" cy="11" r="3"></circle>
+          </svg>
+        </div>
+        <div>
+          <span class="brand-title">AI TrustLens</span>
+          <span class="brand-badge">Clinical Audit</span>
+        </div>
+      </a>
+
+      <div class="system-status">
+        <div class="status-pill" id="statusPill">
+          <span class="status-dot" id="statusDot"></span>
+          <span id="statusText">Checking RAG Status...</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-wrapper">
+
+    <!-- Hero Header -->
+    <section class="hero-banner">
+      <h1 class="hero-title">Medical QA & Claim Verification Platform</h1>
+      <p class="hero-subtitle">
+        Mitigating generative hallucinations through atomic claim decomposition, hybrid evidence retrieval (Vector + BM25 + Graph), and multi-factor factual verification.
+      </p>
+    </section>
+
+    <!-- Control Center / Input Panel -->
+    <section class="control-panel" id="controlPanel">
+      
+      <!-- Mode Selection Tabs -->
+      <div class="mode-tabs" role="tablist">
+        <button class="tab-btn active" data-mode="question" id="tabQuestion">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+          </svg>
+          Ask Medical Question
+        </button>
+        <button class="tab-btn" data-mode="answer" id="tabAnswer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          Verify Text Directly
+        </button>
+      </div>
+
+      <!-- Quick Preset Chips -->
+      <div class="preset-container">
+        <span class="preset-label">Quick Clinical Presets:</span>
+        <div class="preset-chips" id="presetChips">
+          <!-- Populated dynamically via /api/presets -->
+        </div>
+      </div>
+
+      <!-- Textarea Input Box -->
+      <div class="input-box">
+        <textarea 
+          id="clinicalInput" 
+          class="clinical-textarea" 
+          placeholder="Type a medical question (e.g. What are the first-line treatments for hypertension?)..."
+          rows="4"
+        ></textarea>
+      </div>
+
+      <!-- Input Actions -->
+      <div class="input-footer">
+        <span class="input-hint">
+          Powered by <strong>qwen3:8b (Ollama)</strong> and WHO/CDC/AHA clinical knowledge base.
+        </span>
+        <div class="action-buttons">
+          <button class="btn btn-secondary" id="btnClear" type="button">Clear</button>
+          <button class="btn btn-primary" id="btnVerify" type="button">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            Ask & Verify Claims
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pipeline Stepper (Visual Progress Indicator) -->
+    <section class="pipeline-stepper" id="pipelineStepper">
+      <div class="stepper-header">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        Audit Pipeline In Progress...
+      </div>
+      <div class="steps-row">
+        <div class="step-item" id="step1">
+          <div class="step-icon">🤖</div>
+          <span class="step-title">Stage 1: Baseline QA</span>
+          <span class="step-sub">Ollama (qwen3:8b)</span>
+        </div>
+        <div class="step-item" id="step2">
+          <div class="step-icon">🔬</div>
+          <span class="step-title">Stage 2: Claim Extractor</span>
+          <span class="step-sub">Atomic decomposition</span>
+        </div>
+        <div class="step-item" id="step3">
+          <div class="step-icon">🔍</div>
+          <span class="step-title">Stage 3: Hybrid RAG</span>
+          <span class="step-sub">Vector + BM25 + Graph</span>
+        </div>
+        <div class="step-item" id="step4">
+          <div class="step-icon">⚖️</div>
+          <span class="step-title">Stage 4: Verification</span>
+          <span class="step-sub">Stance & KG scoring</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section" id="resultsSection">
+      
+      <!-- Metrics & Reliability Gauge Scorecard -->
+      <div class="scorecard-grid">
+        <div class="metric-gauge-card">
+          <div class="gauge-circle">
+            <svg class="gauge-svg" viewBox="0 0 100 100">
+              <circle class="gauge-bg" cx="50" cy="50" r="45"></circle>
+              <circle class="gauge-progress" id="gaugeCircle" cx="50" cy="50" r="45" stroke-dasharray="282.74" stroke-dashoffset="282.74"></circle>
+            </svg>
+            <div class="gauge-value" id="gaugeVal">0%</div>
+          </div>
+          <div class="gauge-title">Factual Reliability</div>
+          <div class="gauge-desc">Supported claims out of fully evaluated assertions</div>
+        </div>
+
+        <div class="metric-stats-container">
+          <div class="stat-card">
+            <div class="stat-top">
+              <span class="stat-name">Total Claims</span>
+            </div>
+            <div class="stat-number" id="statTotal">0</div>
+            <span class="stat-subtext">Atomic extracted facts</span>
+          </div>
+
+          <div class="stat-card supported">
+            <div class="stat-top">
+              <span class="stat-name">Supported</span>
+              <span class="stat-indicator"></span>
+            </div>
+            <div class="stat-number" id="statSupported">0</div>
+            <span class="stat-subtext">Clinically verified true</span>
+          </div>
+
+          <div class="stat-card refuted">
+            <div class="stat-top">
+              <span class="stat-name">Refuted</span>
+              <span class="stat-indicator"></span>
+            </div>
+            <div class="stat-number" id="statRefuted">0</div>
+            <span class="stat-subtext">Contradicted by guidelines</span>
+          </div>
+
+          <div class="stat-card review">
+            <div class="stat-top">
+              <span class="stat-name">Review Req.</span>
+              <span class="stat-indicator"></span>
+            </div>
+            <div class="stat-number" id="statReview">0</div>
+            <span class="stat-subtext">Incomplete fragment/issue</span>
+          </div>
+
+          <div class="stat-card insufficient">
+            <div class="stat-top">
+              <span class="stat-name">Insufficient</span>
+              <span class="stat-indicator"></span>
+            </div>
+            <div class="stat-number" id="statInsufficient">0</div>
+            <span class="stat-subtext">No reference match</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Annotated Clinical Answer Box -->
+      <div class="annotated-answer-card">
+        <div class="section-badge-header">
+          <span class="section-label">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+            Generated Answer with Interactive Claim Highlights (Click a claim to inspect)
+          </span>
+          <div class="annotation-legend">
+            <span class="legend-item"><span class="legend-swatch" style="background:var(--status-supported)"></span> Supported</span>
+            <span class="legend-item"><span class="legend-swatch" style="background:var(--status-refuted)"></span> Refuted</span>
+            <span class="legend-item"><span class="legend-swatch" style="background:var(--status-review)"></span> Review Req</span>
+            <span class="legend-item"><span class="legend-swatch" style="background:var(--status-insufficient)"></span> Insufficient</span>
+          </div>
+        </div>
+        <div class="annotated-text-content" id="annotatedAnswer">
+          <!-- Dynamically populated with reactive spans -->
+        </div>
+      </div>
+
+      <!-- Claims Breakdown Grid -->
+      <div class="claims-section">
+        <div class="claims-header">
+          <div class="section-label">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 11 12 14 22 4"></polyline>
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+            </svg>
+            Individual Claim Verification Breakdown
+          </div>
+          <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="supported">Supported</button>
+            <button class="filter-btn" data-filter="refuted">Refuted</button>
+            <button class="filter-btn" data-filter="review">Review Req</button>
+            <button class="filter-btn" data-filter="insufficient">Insufficient</button>
+            <button class="filter-btn" id="btnToggleJson">Inspect JSON</button>
+          </div>
+        </div>
+
+        <div class="claims-grid" id="claimsGrid">
+          <!-- Populated dynamically with claim cards -->
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Modal for Raw JSON Inspector -->
+  <div id="jsonModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; align-items:center; justify-content:center; backdrop-filter:blur(8px);">
+    <div style="background:var(--bg-secondary); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); width:90%; max-width:800px; max-height:85vh; display:flex; flex-direction:column; overflow:hidden;">
+      <div style="padding:1.25rem; border-bottom:1px solid var(--border-subtle); display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-weight:700; color:var(--brand-cyan);">Diagnostic Audit JSON Payload</span>
+        <button id="btnCloseJson" style="background:none; border:none; color:var(--text-secondary); font-size:1.5rem; cursor:pointer;">&times;</button>
+      </div>
+      <pre id="jsonContent" style="padding:1.5rem; overflow:auto; font-family:var(--font-mono); font-size:0.82rem; color:#cbd5e1; flex:1;"></pre>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <p>AI TrustLens · Final-Year B.Tech Major Project · Hallucination Detection & Verification System</p>
+    <p style="margin-top:0.35rem; color:var(--text-muted); font-size:0.75rem;">
+      Research Prototype Only: Outputs must not be used for clinical decision-making or prescribing without human clinical oversight.
+    </p>
+  </footer>
+
+  <script src="/static/js/app.js?v=2.0.2"></script>
+</body>
+</html>

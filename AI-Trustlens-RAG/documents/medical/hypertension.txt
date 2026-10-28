@@ -1,0 +1,47 @@
+Source: World Health Organization (WHO) / American Heart Association (AHA)
+Title: Hypertension (High Blood Pressure) — Facts, Diagnosis and Treatment
+URL: https://www.who.int/news-room/fact-sheets/detail/hypertension
+Domain: Medical
+Document-Type: Clinical Reference
+
+HYPERTENSION — FACTUAL REFERENCE
+
+Overview
+Hypertension, also known as high blood pressure, is a condition in which the force of the blood against artery walls is consistently too high. Blood pressure is measured in millimeters of mercury (mmHg) and recorded as two values: systolic pressure (pressure when the heart beats) over diastolic pressure (pressure when the heart rests). Hypertension is defined as a systolic blood pressure of 130 mmHg or higher, or a diastolic blood pressure of 80 mmHg or higher (AHA 2017 guidelines), or 140/90 mmHg or higher (WHO/JNC 8 definition). It is a leading risk factor for heart attack, stroke, kidney failure, and premature death.
+
+Blood Pressure Classification (AHA 2017)
+Normal: Systolic less than 120 mmHg AND diastolic less than 80 mmHg. Elevated: Systolic 120-129 mmHg AND diastolic less than 80 mmHg. Hypertension Stage 1: Systolic 130-139 mmHg OR diastolic 80-89 mmHg. Hypertension Stage 2: Systolic >= 140 mmHg OR diastolic >= 90 mmHg. Hypertensive Crisis: Systolic > 180 mmHg and/or diastolic > 120 mmHg — requires immediate medical attention.
+
+Types of Hypertension
+Primary (Essential) Hypertension: Has no identifiable cause. It develops gradually over many years and accounts for approximately 90-95% of all hypertension cases. It is influenced by genetic factors, age, diet, lifestyle, and obesity. Secondary Hypertension: Has a specific identifiable cause such as kidney disease (renal artery stenosis, chronic kidney disease), hormonal disorders (primary aldosteronism, pheochromocytoma, Cushing's syndrome), obstructive sleep apnea, thyroid disease, or certain medications (NSAIDs, oral contraceptives, decongestants). Secondary hypertension tends to appear suddenly and cause higher blood pressure than primary hypertension.
+
+Symptoms
+Hypertension is known as the "silent killer" because most people with high blood pressure have no symptoms, even when blood pressure readings reach dangerously high levels. Some people may experience headaches, shortness of breath, or nosebleeds but these are not specific to hypertension. Regular blood pressure monitoring is essential for detection.
+
+Risk Factors
+Non-modifiable: Age (risk increases with age), family history of hypertension, ethnicity (more prevalent in Black/African American populations). Modifiable: Obesity (BMI > 30), high-sodium diet, excessive alcohol consumption, physical inactivity, smoking and tobacco use, stress, and sleep disorders. Medical conditions: Diabetes, high cholesterol, and chronic kidney disease are associated with hypertension.
+
+Diagnosis
+Hypertension should be diagnosed based on an average of two or more blood pressure readings obtained at two or more clinical visits. Home blood pressure monitoring (HBPM) and 24-hour ambulatory blood pressure monitoring (ABPM) are valuable for confirming the diagnosis and excluding "white coat hypertension." Routine assessment includes blood and urine tests to evaluate kidney function, blood glucose, electrolytes, and cholesterol levels. ECG to assess for cardiac hypertrophy.
+
+Treatment — Lifestyle Modifications (First-Line)
+Lifestyle modification is recommended for all patients with elevated blood pressure or hypertension. DASH diet (Dietary Approaches to Stop Hypertension): rich in fruits, vegetables, whole grains, low-fat dairy, and low in saturated fat and sodium. Reduces systolic BP by 8-14 mmHg. Sodium reduction: Limit intake to less than 2,300 mg/day (ideally 1,500 mg/day for high-risk individuals). Reduces systolic BP by 2-8 mmHg. Regular aerobic exercise: At least 150 minutes per week of moderate-intensity exercise. Reduces systolic BP by 4-9 mmHg. Weight loss: Each 1 kg reduction in body weight reduces systolic BP by approximately 1 mmHg. Limit alcohol: No more than 1 drink/day for women, 2 for men. Reduces systolic BP by 2-4 mmHg. Quit smoking: Smoking cessation does not directly lower resting BP but dramatically reduces overall cardiovascular risk.
+
+Treatment — Antihypertensive Medications
+First-line medications for hypertension include: Thiazide diuretics (e.g., hydrochlorothiazide, chlorthalidone) — especially effective in Black patients and elderly patients. ACE inhibitors (e.g., lisinopril, enalapril) — preferred in patients with diabetes, chronic kidney disease, or heart failure. ARBs (Angiotensin Receptor Blockers) (e.g., losartan, valsartan) — alternative to ACE inhibitors with fewer side effects (no cough). Calcium channel blockers (e.g., amlodipine, nifedipine) — effective in elderly patients and Black patients. Beta-blockers (e.g., metoprolol, carvedilol) — particularly useful when hypertension coexists with coronary artery disease or heart failure. Most patients with Stage 2 hypertension or high cardiovascular risk require combination therapy (two or more medications) for adequate blood pressure control.
+
+Blood Pressure Targets
+For most adults: target < 130/80 mmHg (AHA 2017). For elderly patients (>65 years): target systolic < 130 mmHg if tolerated. For patients with chronic kidney disease and proteinuria: target < 130/80 mmHg. For patients with diabetes: target < 130/80 mmHg.
+
+Hypertension and Cardiovascular Risk
+Hypertension is the single most important modifiable risk factor for cardiovascular disease globally. Each 20 mmHg increase in systolic blood pressure (or 10 mmHg in diastolic) doubles the risk of death from ischemic heart disease and stroke. Effective blood pressure control reduces the risk of stroke by 35-40%, myocardial infarction (heart attack) by 20-25%, and heart failure by more than 50%.
+
+Hypertensive Emergencies
+Hypertensive urgency: BP > 180/120 mmHg without evidence of end-organ damage — can usually be managed with oral medications. Hypertensive emergency: BP > 180/120 mmHg WITH evidence of acute end-organ damage (stroke, acute myocardial infarction, aortic dissection, acute kidney injury, hypertensive encephalopathy) — requires immediate IV antihypertensive therapy in an ICU setting.
+
+Global Statistics
+- Hypertension affects approximately 1.28 billion adults aged 30-79 years worldwide (WHO 2023).
+- Only 1 in 5 adults with hypertension have their blood pressure under control.
+- Hypertension causes 7.5 million deaths globally per year — about 12.8% of all deaths.
+- More than 700 million people with hypertension are not receiving treatment.
+- High-income countries have higher rates of diagnosis and treatment compared to low-income countries.

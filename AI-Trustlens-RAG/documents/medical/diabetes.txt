@@ -1,0 +1,47 @@
+Source: World Health Organization (WHO) / American Diabetes Association (ADA)
+Title: Diabetes — Types, Diagnosis, Management and Treatment
+URL: https://www.who.int/news-room/fact-sheets/detail/diabetes
+Domain: Medical
+Document-Type: Clinical Reference
+
+DIABETES — FACTUAL REFERENCE
+
+Overview
+Diabetes is a chronic, metabolic disease characterized by elevated levels of blood glucose (blood sugar), which leads over time to serious damage to the heart, blood vessels, eyes, kidneys, and nerves. The most common type is type 2 diabetes, usually in adults, which occurs when the body becomes resistant to insulin or does not make enough insulin. In the past three decades, the prevalence of type 2 diabetes has risen dramatically in countries of all income levels. Type 1 diabetes, once known as juvenile diabetes or insulin-dependent diabetes, is a chronic condition in which the pancreas produces little or no insulin by itself.
+
+Types of Diabetes
+Type 1 Diabetes: An autoimmune condition in which the immune system attacks and destroys the insulin-producing beta cells in the pancreas. It accounts for approximately 5-10% of all diabetes cases. People with type 1 diabetes require daily insulin injections to survive. It is NOT preventable and is not caused by lifestyle factors. Onset typically occurs in childhood or early adulthood.
+
+Type 2 Diabetes: The most common form, accounting for approximately 90-95% of all diabetes cases. It develops when the body does not use insulin effectively (insulin resistance) and the pancreas cannot compensate by producing sufficient insulin. It is strongly associated with obesity, physical inactivity, and unhealthy diet. Type 2 diabetes is largely preventable through lifestyle modification.
+
+Gestational Diabetes: Hyperglycemia that develops during pregnancy in women without a prior diabetes diagnosis. It increases the risk of complications during pregnancy and delivery and increases the risk that both mother and child will develop type 2 diabetes later in life.
+
+Prediabetes: Blood sugar levels that are higher than normal but not yet high enough to be classified as type 2 diabetes. Without intervention, many people with prediabetes develop type 2 diabetes within 5 years.
+
+Symptoms and Diagnosis
+Common symptoms include excessive thirst (polydipsia), frequent urination (polyuria), unexplained weight loss, fatigue, blurred vision, slow-healing wounds, and recurrent infections. Many people with type 2 diabetes have no symptoms in the early stages. Diabetes is diagnosed using: Fasting plasma glucose (FPG) >= 7.0 mmol/L (126 mg/dL), HbA1c >= 48 mmol/mol (>= 6.5%), Oral glucose tolerance test (OGTT) 2-hour plasma glucose >= 11.1 mmol/L (200 mg/dL), or Random plasma glucose >= 11.1 mmol/L with symptoms.
+
+Risk Factors for Type 2 Diabetes
+Obesity (BMI > 30), especially central/abdominal obesity. Physical inactivity and sedentary lifestyle. Family history of diabetes (first-degree relative). Age over 45 years. History of gestational diabetes or polycystic ovary syndrome (PCOS). Ethnicity — higher risk in South Asians, African Americans, Hispanic/Latino individuals. High blood pressure (hypertension) and dyslipidemia (abnormal cholesterol).
+
+Treatment and Management — Type 1 Diabetes
+Type 1 diabetes requires lifelong insulin therapy. Insulin delivery options include multiple daily injections (MDI) and continuous subcutaneous insulin infusion (CSII/insulin pump). Blood glucose monitoring is essential — either with traditional glucose meters or continuous glucose monitors (CGM). Carbohydrate counting and matching insulin doses to carbohydrate intake is the standard approach.
+
+Treatment and Management — Type 2 Diabetes
+Lifestyle modification (diet, exercise, weight loss) is the first-line treatment for type 2 diabetes. Metformin is the recommended first-line pharmacological agent for most patients with type 2 diabetes — it is effective, well-tolerated, inexpensive, and has a long safety record. Additional medications include SGLT-2 inhibitors (e.g., empagliflozin, dapagliflozin) — which reduce cardiovascular events and kidney disease progression, GLP-1 receptor agonists (e.g., semaglutide, liraglutide) — which promote weight loss and reduce cardiovascular risk, DPP-4 inhibitors (e.g., sitagliptin), sulfonylureas (e.g., glipizide, glyburide), and insulin (when oral agents are insufficient). Blood pressure and cholesterol management are critical components of type 2 diabetes care. Statins are recommended for most adults with diabetes to reduce cardiovascular risk.
+
+HbA1c Targets
+The general HbA1c target for most adults with diabetes is less than 7% (53 mmol/mol). A target of less than 6.5% may be appropriate for younger patients with low hypoglycemia risk. A less stringent target (less than 8%) may be appropriate for elderly patients, those with advanced complications, or limited life expectancy.
+
+Complications of Diabetes
+Cardiovascular disease is the leading cause of death in people with diabetes. Diabetic nephropathy (kidney disease) is the leading cause of chronic kidney disease and end-stage renal disease worldwide. Diabetic retinopathy is the leading cause of blindness in working-age adults. Diabetic neuropathy (nerve damage) affects over 50% of people with diabetes and is a major cause of foot ulcers and amputations. Lower limb amputation is 10-20 times more common in people with diabetes than the general population.
+
+Prevention of Type 2 Diabetes
+Regular physical activity (at least 150 minutes of moderate-intensity exercise per week). Maintaining a healthy body weight — even a 5-7% reduction in body weight reduces risk significantly. Healthy diet rich in vegetables, whole grains, lean protein, and low in refined carbohydrates and saturated fats. Avoiding tobacco use and limiting alcohol consumption. The Diabetes Prevention Program (DPP) showed that lifestyle intervention reduced progression to type 2 diabetes by 58% in high-risk individuals.
+
+Global Statistics
+- Approximately 537 million adults (20-79 years) are living with diabetes globally (2021, IDF).
+- By 2045, this number is estimated to rise to 783 million.
+- Diabetes was directly responsible for 6.7 million deaths in 2021.
+- More than 1.1 million children and adolescents are living with type 1 diabetes.
+- Low- and middle-income countries bear the greatest burden of diabetes globally.

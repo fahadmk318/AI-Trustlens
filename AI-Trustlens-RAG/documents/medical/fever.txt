@@ -1,0 +1,28 @@
+Source: World Health Organization (WHO) / Centers for Disease Control and Prevention (CDC)
+Title: Fever (Pyrexia) — Definition, Temperature Guidelines, Causes and Clinical Care
+URL: https://www.cdc.gov/fever/facts.html
+Domain: Medical
+Document-Type: Clinical Reference
+
+FEVER (PYREXIA) — FACTUAL CLINICAL REFERENCE
+
+Overview and Definition
+A fever (clinically known as pyrexia) is a temporary increase in average body temperature above normal baseline values, usually occurring as part of the body's natural physiological immune response to an illness or infection. It is a common clinical sign that the immune system is actively fighting off foreign pathogens, such as viruses, bacteria, fungi, or parasites. In most instances, fevers are not harmful in themselves, but rather serve as an indicator that an underlying inflammatory or infectious process is occurring within the body.
+
+Body Temperature Guidelines and Thresholds
+Normal resting human body temperature typically ranges between 97.0°F (36.1°C) and 99.0°F (37.2°C), varying throughout the day based on circadian rhythms, physical activity, and ambient environment.
+A fever is clinically defined as a measured core body temperature of 100.4°F (38.0°C) or higher.
+- Low-grade fever: 100.4°F to 102.2°F (38.0°C to 39.0°C).
+- High-grade fever: 102.4°F (39.1°C) or higher.
+- Hyperpyrexia: An extreme elevation in body temperature exceeding 106.0°F (41.1°C), which constitutes a medical emergency requiring urgent cooling and critical care intervention.
+
+Common Etiologies and Causes of Fever
+1. Infections: The most common causes of fever are microbial infections, including viral infections (influenza, common cold, COVID-19), bacterial infections (pneumonia, urinary tract infections, strep throat), fungal infections, and parasitic infections (malaria).
+2. Inflammatory and Autoimmune Disorders: Non-infectious inflammatory conditions, including systemic lupus erythematosus (SLE), rheumatoid arthritis, inflammatory bowel disease, and vasculitis, can trigger prolonged fever through endogenous pyrogen release.
+3. Neoplasms and Malignancy: Certain cancers, particularly lymphomas, leukemias, and renal cell carcinomas, frequently cause fevers (often termed "B symptoms" or neoplastic fever).
+4. Vaccinations: Low-grade fever is a recognized, expected mild immune reaction following routine immunizations as the body generates protective antibodies.
+5. Environmental and Heat-Related Conditions: Heat exhaustion and heat stroke occur when thermoregulation fails due to intense environmental heat, resulting in elevated core body temperatures.
+6. Medications (Drug-Induced Fever): Certain pharmaceuticals, including antibiotics, anticonvulsants, and cardiovascular drugs, can induce idiosyncratic febrile reactions.
+
+Clinical Management and Treatment
+Fever management centers on treating the underlying etiology rather than merely suppressing temperature. Supportive measures include adequate oral hydration, rest, and avoiding excessive bundling. When indicated for comfort, over-the-counter antipyretics such as paracetamol (acetaminophen) or non-steroidal anti-inflammatory drugs (NSAIDs, such as ibuprofen) may be administered according to age-appropriate weight-based dosing. Aspirin should not be given to children or adolescents due to the risk of Reye's syndrome.
