@@ -20,14 +20,15 @@
    - [A. Ollama & Local LLM](#a-ollama--local-llm)
    - [B. RAG Microservice Setup & Document Ingestion](#b-rag-microservice-setup--document-ingestion)
    - [C. Root Verification Environment Setup](#c-root-verification-environment-setup)
-6. [Running the Application](#running-the-application)
+6. [Quick Start & Restart Guide (Daily Workflow)](#quick-start--restart-guide-daily-workflow)
+7. [Running the Application](#running-the-application)
    - [1. Interactive Web Dashboard UI (Recommended for Presentations)](#1-interactive-web-dashboard-ui-recommended-for-presentations)
    - [2. Interactive Clinical QA Terminal CLI](#2-interactive-clinical-qa-terminal-cli)
    - [3. Pipeline CLI (Automated QA & File Verification)](#3-pipeline-cli-automated-qa--file-verification)
    - [4. Baseline Terminal QA Loop](#4-baseline-terminal-qa-loop)
    - [5. Standalone Claim Extractor](#5-standalone-claim-extractor)
-7. [Testing & Quality Assurance](#testing--quality-assurance)
-8. [Clinical Safety Disclaimer](#clinical-safety-disclaimer)
+8. [Testing & Quality Assurance](#testing--quality-assurance)
+9. [Clinical Safety Disclaimer](#clinical-safety-disclaimer)
 
 ---
 
@@ -237,6 +238,35 @@ cd "Claim verification"
    ```bash
    cp .env.example .env
    ```
+
+---
+
+## Quick Start & Restart Guide (Daily Workflow)
+
+Whenever you restart your computer, reopen your workspace, or want to spin up the platform again, start the services in **two separate terminals**:
+
+### Terminal 1: Start RAG Evidence Microservice (Port 8000)
+```bash
+cd "AI-Trustlens-RAG"
+source .venv/bin/activate
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+```
+> *Serves hybrid vector search, BM25 keyword search, and Knowledge Graph evidence retrieval at `http://127.0.0.1:8000`.*
+
+### Terminal 2: Start Web Dashboard Server (Port 8080)
+```bash
+cd "Claim verification"
+source .venv/bin/activate
+python web_app.py
+```
+> *Open **[http://localhost:8080](http://localhost:8080)** in your browser to access the visual claim verification dashboard.*
+
+### (Optional) Terminal 3: Share Publicly with Teammates (Cloudflare Tunnel)
+```bash
+cd "Claim verification"
+./cloudflared tunnel --url http://localhost:8080
+```
+> *Generates a secure public HTTPS URL (`https://*.trycloudflare.com`) that teammates can access from any device.*
 
 ---
 
