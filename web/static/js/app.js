@@ -25,10 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const statInsufficient = document.getElementById('statInsufficient');
   const annotatedAnswer = document.getElementById('annotatedAnswer');
   const claimsGrid = document.getElementById('claimsGrid');
-  const btnToggleJson = document.getElementById('btnToggleJson');
-  const jsonModal = document.getElementById('jsonModal');
-  const jsonContent = document.getElementById('jsonContent');
-  const btnCloseJson = document.getElementById('btnCloseJson');
+
 
   // State
   let currentMode = 'question';
@@ -87,22 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // JSON Modal
-  if (btnToggleJson && jsonModal) {
-    btnToggleJson.addEventListener('click', () => {
-      if (!currentResult) return;
-      jsonContent.textContent = JSON.stringify(currentResult, null, 2);
-      jsonModal.style.display = 'flex';
-    });
 
-    btnCloseJson.addEventListener('click', () => {
-      jsonModal.style.display = 'none';
-    });
-
-    jsonModal.addEventListener('click', (e) => {
-      if (e.target === jsonModal) jsonModal.style.display = 'none';
-    });
-  }
 
   // ---------------------------------------------------------------------------
   // Core Functions

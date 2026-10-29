@@ -241,7 +241,6 @@
             <button class="filter-btn" data-filter="refuted">Refuted</button>
             <button class="filter-btn" data-filter="review">Review Req</button>
             <button class="filter-btn" data-filter="insufficient">Insufficient</button>
-            <button class="filter-btn" id="btnToggleJson">Inspect JSON</button>
           </div>
         </div>
 
@@ -254,17 +253,6 @@
 
   </main>
 
-  <!-- Modal for Raw JSON Inspector -->
-  <div id="jsonModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; align-items:center; justify-content:center; backdrop-filter:blur(8px);">
-    <div style="background:var(--bg-secondary); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); width:90%; max-width:800px; max-height:85vh; display:flex; flex-direction:column; overflow:hidden;">
-      <div style="padding:1.25rem; border-bottom:1px solid var(--border-subtle); display:flex; justify-content:space-between; align-items:center;">
-        <span style="font-weight:700; color:var(--brand-cyan);">Diagnostic Audit JSON Payload</span>
-        <button id="btnCloseJson" style="background:none; border:none; color:var(--text-secondary); font-size:1.5rem; cursor:pointer;">&times;</button>
-      </div>
-      <pre id="jsonContent" style="padding:1.5rem; overflow:auto; font-family:var(--font-mono); font-size:0.82rem; color:#cbd5e1; flex:1;"></pre>
-    </div>
-  </div>
-
   <!-- Footer -->
   <footer class="app-footer">
     <p>AI TrustLens · Final-Year B.Tech Major Project · Hallucination Detection & Verification System</p>
@@ -273,6 +261,6 @@
     </p>
   </footer>
 
-  <script src="/static/js/app.js?v=2.0.2"></script>
+  <script src="/static/js/app.js?v=2.0.3"></script>
 </body>
 </html>
